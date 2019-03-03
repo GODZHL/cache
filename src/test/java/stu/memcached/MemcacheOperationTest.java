@@ -19,7 +19,6 @@ public class MemcacheOperationTest {
 
     @Before
     public void init() {
-
         client = new MemCachedClient();
 
         //服务器地址
@@ -41,6 +40,13 @@ public class MemcacheOperationTest {
 
         String name = (String)client.get("name");
         assertThat("con",name,Matchers.equalToIgnoringCase("name"));
+    }
+
+    @After
+    public void distory(){
+
+        client.flushAll();
+
     }
 
 }
