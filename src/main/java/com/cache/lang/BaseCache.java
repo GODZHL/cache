@@ -8,6 +8,14 @@ import java.util.concurrent.locks.ReadWriteLock;
  */
 public interface BaseCache<K, V> {
 
+
+    /**
+     * 获取缓存器的id
+     * @return
+     */
+    String getId();
+
+
     /**
      * 放入数据
      *
