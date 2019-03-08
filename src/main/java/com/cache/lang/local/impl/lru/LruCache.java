@@ -1,4 +1,4 @@
-package com.cache.lang.local.impl.LruCache;
+package com.cache.lang.local.impl.lru;
 
 import com.cache.lang.BaseCache;
 
