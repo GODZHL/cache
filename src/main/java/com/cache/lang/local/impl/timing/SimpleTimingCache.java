@@ -12,10 +12,11 @@ import java.util.stream.Collectors;
 /**
  * @author zhanghanlin
  * 带计时的缓存
+ * timing cache
  */
 class SimpleTimingCache<K, V> implements TimingCache<K, V> {
 
-    //设置线程池用于清楚过期数据
+    //设置线程池用于清除过期数据
     private static ScheduledExecutorService executorService = new ScheduledThreadPoolExecutor(5);
 
     //默认超时时间(5 分钟)

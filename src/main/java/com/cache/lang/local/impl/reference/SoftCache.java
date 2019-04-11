@@ -8,6 +8,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.concurrent.locks.ReadWriteLock;
 
+//todo 还没有写完
 public class SoftCache<K, V> implements BaseCache<K, V> {
 
 

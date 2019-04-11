@@ -1,6 +1,8 @@
 package com.cache.lang.impl;
 
 import com.cache.lang.BaseCache;
+import com.cache.lang.local.impl.common.ThreadSafeCache;
+import org.junit.Before;
 import org.junit.Test;
 
 
@@ -13,13 +15,15 @@ import static org.junit.Assert.*;
 /**
  * simplecache 的测试
  */
-public class SimpleCacheTest {
+public abstract class SimpleCacheTest {
 
     private BaseCache<Integer, String> cache;
 
     protected void setCache(BaseCache cache) {
         this.cache = cache;
     }
+
+
 
     @Test
     public void cacehSaveAndGetTest() {
