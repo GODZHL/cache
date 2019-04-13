@@ -1,6 +1,7 @@
 plugins {
     id 'java'
 }
+apply plugin: 'maven' // 引入maven插件
 
 group 'com.zhl'
 version '1.0-SNAPSHOT'

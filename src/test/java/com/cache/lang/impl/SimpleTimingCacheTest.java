@@ -1,13 +1,12 @@
 package com.cache.lang.impl;
 
 import com.cache.lang.TimingCache;
+import com.cache.lang.local.impl.timing.ThreadSafeTimingCache;
 import com.cache.lang.local.impl.timing.UnThreadTimeCache;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 import org.hamcrest.Matchers;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,6 +18,12 @@ import static org.junit.Assert.*;
 public class SimpleTimingCacheTest {
 
     TimingCache<Integer,String> timingCache;
+
+    @Before
+    public void init(){
+        timingCache =  new ThreadSafeTimingCache("name");
+        timingCache.put(1,"1",3);
+    }
 
 
     protected void setCache(TimingCache cache){

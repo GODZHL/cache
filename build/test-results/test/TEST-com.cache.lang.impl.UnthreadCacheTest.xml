@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cache.lang.impl.UnthreadCacheTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-04-13T02:14:34" hostname="zhanghanlin" time="0.007">
+  <properties/>
+  <testcase name="getIdAndHashCodeTest" classname="com.cache.lang.impl.UnthreadCacheTest" time="0.0"/>
+  <testcase name="removeAndClearTest" classname="com.cache.lang.impl.UnthreadCacheTest" time="0.0"/>
+  <testcase name="cacehSaveAndGetTest" classname="com.cache.lang.impl.UnthreadCacheTest" time="0.001"/>
+  <testcase name="countTest" classname="com.cache.lang.impl.UnthreadCacheTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

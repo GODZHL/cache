@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cn.stu.cache.JSONSerializerTest" tests="2" skipped="2" failures="0" errors="0" timestamp="2019-04-13T02:14:11" hostname="zhanghanlin" time="0.001">
+  <properties/>
+  <testcase name="fst_json" classname="cn.stu.cache.JSONSerializerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="fast_json" classname="cn.stu.cache.JSONSerializerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

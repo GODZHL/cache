@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="stu.string.StringOfJava8" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-13T02:14:23" hostname="zhanghanlin" time="0.001">
+  <properties/>
+  <testcase name="StringJoinTest" classname="stu.string.StringOfJava8" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

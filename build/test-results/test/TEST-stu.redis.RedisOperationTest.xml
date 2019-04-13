@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="stu.redis.RedisOperationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-04-13T02:14:11" hostname="zhanghanlin" time="0.538">
+  <properties/>
+  <testcase name="redisHashOperationTest" classname="stu.redis.RedisOperationTest" time="0.127"/>
+  <testcase name="redisHyperLogLogOperationTest" classname="stu.redis.RedisOperationTest" time="0.064"/>
+  <testcase name="redisKeyOperationTest" classname="stu.redis.RedisOperationTest" time="0.055"/>
+  <testcase name="redisZsetOperationTest" classname="stu.redis.RedisOperationTest" time="0.066"/>
+  <testcase name="redisStringOperationTest" classname="stu.redis.RedisOperationTest" time="0.066"/>
+  <testcase name="redisConnnectTest" classname="stu.redis.RedisOperationTest" time="0.055"/>
+  <testcase name="redisSetOperationTest" classname="stu.redis.RedisOperationTest" time="0.044"/>
+  <testcase name="redisListOperationTest" classname="stu.redis.RedisOperationTest" time="0.054"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

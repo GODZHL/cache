@@ -4,6 +4,7 @@ import cn.stu.cache.util.FastjsonSerializer;
 import cn.stu.cache.util.FstJSONSerializer;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -47,6 +48,7 @@ public class JSONSerializerTest {
     }
 
     @Test
+    @Ignore
     public void fst_json() {
 
         FstJSONSerializer serializer = new FstJSONSerializer(mapping);
@@ -67,6 +69,7 @@ public class JSONSerializerTest {
 
 
     @Test
+    @Ignore
     public void fast_json() {
 
         FastjsonSerializer serializer = new FastjsonSerializer();

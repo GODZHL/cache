@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cache.lang.impl.SimpleTimingCacheTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-13T02:14:12" hostname="zhanghanlin" time="10.043">
+  <properties/>
+  <testcase name="makeTimingCacheTureTest" classname="com.cache.lang.impl.SimpleTimingCacheTest" time="10.043"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
