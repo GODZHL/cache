@@ -5,204 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="504a607f-4240-4974-816a-42c62abd920b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileContent/annotation-processors.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/build.gradle.bk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/Cache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/CacheChannel$Region.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/CacheChannel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/CacheException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/CacheExpiredListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/CacheObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/CacheProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/CacheProviderHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/Command.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/Level1Cache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/Level2Cache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/NullCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/NullCacheProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/NullObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/ZhCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/ZhCacheBuilder$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/ZhCacheBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/ZhCacheCmd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/ZhCacheConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/caffeine/CaffeineCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/caffeine/CaffeineProvider$CacheConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/caffeine/CaffeineProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/cluster/ClusterPolicy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/cluster/ClusterPolicyFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/cluster/JGroupsClusterPolicy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/cluster/NoneClusterPolicy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/cluster/RabbitMQClusterPolicy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/cluster/RocketMQClusterPolicy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/ehcache/EhCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/ehcache/EhCache3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/ehcache/EhCacheProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/ehcache/EhCacheProvider3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/lettuce/LettuceByteCodec.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/lettuce/LettuceCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/lettuce/LettuceCacheProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/lettuce/LettuceGenericCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/lettuce/LettuceHashCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/memcached/MemCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/memcached/XmemcachedCacheProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/redis/ReadonlyRedisCacheProvider$ReadonlyCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/redis/ReadonlyRedisCacheProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/redis/RedisCacheProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/redis/RedisClient$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/redis/RedisClient$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/redis/RedisClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/redis/RedisGenericCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/redis/RedisHashCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/redis/RedisPubSubClusterPolicy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/redis/RedisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/DeserializeException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/FSTSerializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/FastjsonSerializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/FstJSONSerializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/FstSnappySerializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/JavaSerializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/KryoPoolSerializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/KryoPoolSerializer$KryoHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/KryoPoolSerializer$KryoPool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/KryoPoolSerializer$KryoPoolImpl$Singleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/KryoPoolSerializer$KryoPoolImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/KryoPoolSerializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/KryoSerializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/SerializationUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/cn/stu/cache/util/Serializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/exception/CacheException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/exception/ExceptionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/BaseCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/TimingCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/LocalCacheException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/common/SimpleCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/common/ThreadSafeCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/common/UnThreadSafeCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/fifo/FifoCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/lru/LruCache$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/lru/LruCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/reference/SoftCache$SoftEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/reference/SoftCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/scheduled/ScheduledCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/serializable/SerializableCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/timing/SimpleTimingCache$TimeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/timing/SimpleTimingCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/timing/ThreadSafeTimingCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/lang/local/impl/timing/UnThreadTimeCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/log/LogException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/log/Logger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/log/LoggerFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/log/log4j/Log4JLoggerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/log/nolog/Nologimpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/log/slf4j/Slf4JLocationAwareLoggerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/log/slf4j/Slf4JLoggerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/cache/log/slf4j/Slf4jAdapter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cn/stu/cache/CacheChannelTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cn/stu/cache/ExpiredTester.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cn/stu/cache/JSONSerializerTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cn/stu/cache/JSONSerializerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cn/stu/cache/MultiChannelTester.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cn/stu/cache/MultiThreadTester.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cn/stu/cache/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cn/stu/cache/ReferenceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cn/stu/cache/School.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cn/stu/cache/VeryBig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cn/stu/cache/VeryBigWeakReference.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cn/stu/cache/redis/RedisUtilsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/cache/lang/impl/SimpleCacheTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/cache/lang/impl/SimpleTimingCacheTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/cache/lang/impl/UnThreadTimingCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/cache/lang/impl/UnthreadCacheTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/cache/log/LoggerFactoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/stu/memcached/MemcacheOperationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/stu/redis/RedisOperationTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/stu/redis/RedisOperationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/stu/string/StringOfJava8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/cache-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/poms/pom-default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/cn.stu.cache.CacheChannelTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/cn.stu.cache.JSONSerializerTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/cn.stu.cache.redis.RedisUtilsTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.cache.lang.impl.SimpleTimingCacheTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.cache.lang.impl.UnThreadTimingCache.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.cache.lang.impl.UnthreadCacheTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.cache.log.LoggerFactoryTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/stu.memcached.MemcacheOperationTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/stu.redis.RedisOperationTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/stu.string.StringOfJava8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/cn.stu.cache.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/cn.stu.cache.redis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.cache.lang.impl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.cache.log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/stu.memcached.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/stu.redis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/stu.string.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/caffeine.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/ehcache3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/j2cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/network.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/caffeine.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/ehcache3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/j2cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/network.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-cn.stu.cache.CacheChannelTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-cn.stu.cache.JSONSerializerTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-cn.stu.cache.redis.RedisUtilsTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.cache.lang.impl.SimpleTimingCacheTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.cache.lang.impl.UnThreadTimingCache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.cache.lang.impl.UnthreadCacheTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.cache.log.LoggerFactoryTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-stu.memcached.MemcacheOperationTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-stu.redis.RedisOperationTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-stu.string.StringOfJava8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_5730947106216372895_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_6106357895196291584_tmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/JSONSerializerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/JSONSerializerTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/JSONSerializerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/JSONSerializerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/cache/lang/impl/SimpleTimingCacheTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/cache/lang/impl/SimpleTimingCacheTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zhcache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zhcache/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cache/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zhcache/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zhcache/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zhcache/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zhcache/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zhcache/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zhcache/src/main/java/com/stu/springzhcache/SpringZhcacheApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zhcache/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-zhcache/src/test/java/com/stu/springzhcache/SpringZhcacheApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/stu/cache/JSONSerializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/stu/cache/JSONSerializerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cache/lang/impl/SimpleTimingCacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cache/lang/impl/SimpleTimingCacheTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/cache.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/META-INF/cache.main.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -265,32 +73,6 @@
                 <item name="cache" type="f1a62948:ProjectNode" />
                 <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="cache" type="f1a62948:ProjectNode" />
-                <item name="spring-cache" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="cache" type="f1a62948:ProjectNode" />
-                <item name="spring-cache" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="cache" type="f1a62948:ProjectNode" />
-                <item name="spring-cache" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="cache" type="f1a62948:ProjectNode" />
-                <item name="spring-cache" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -307,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-cache/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="301">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -412,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -420,44 +201,11 @@
               <item name="cache" type="b2602c69:ProjectViewProjectNode" />
               <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -644,6 +392,7 @@
       <workItem from="1555036202022" duration="256000" />
       <workItem from="1555044222208" duration="24000" />
       <workItem from="1555050794718" duration="5997000" />
+      <workItem from="1555123223177" duration="272000" />
     </task>
     <task id="LOCAL-00001" summary="初始化和了解相关api">
       <created>1551585353760</created>
@@ -730,13 +479,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67889000" />
+    <option name="totallyTimeSpent" value="68161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49798116" visible="true" weight="0.23771368" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49798116" visible="true" weight="0.24038461" />
       <window_info id="Structure" order="1" sideWeight="0.5015707" side_tool="true" weight="0.38675213" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -744,8 +493,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50201887" side_tool="true" weight="0.22970085" />
       <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Spring" weight="0.3299285" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32890704" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37793666" />
@@ -759,9 +507,10 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32890704" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3299285" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32984293" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.3299285" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -774,6 +523,7 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="PlantUML" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1036,16 +786,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-zhcache/HELP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="12" column="25" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-zhcache/HELP.md" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.6.RELEASE/647293fbac4e4a0805d5440151ebb79cd0bf426b/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1060,34 +801,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-zhcache/src/test/java/com/stu/springzhcache/SpringZhcacheApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-zhcache/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-zhcache/src/main/java/com/stu/springzhcache/SpringZhcacheApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-zhcache/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-zhcache/src/test/java/com/stu/springzhcache/SpringZhcacheApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/spring-zhcache/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/spring-zhcache/src/main/java/com/stu/springzhcache/SpringZhcacheApplication.java" />
+    <entry file="file://$PROJECT_DIR$/spring-zhcache/settings.gradle" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1139,8 +856,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cache/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="301">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
