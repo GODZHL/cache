@@ -5,11 +5,13 @@ plugins {
 group 'com.zhl'
 version '1.0-SNAPSHOT'
 
+
 sourceCompatibility = 1.8
 
 repositories {
-    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+
     mavenLocal()
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
     mavenCentral()
 }
 

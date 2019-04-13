@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="504a607f-4240-4974-816a-42c62abd920b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/META-INF/cache.main.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/CacheChannel$Region.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/CacheChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/CacheException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/CacheExpiredListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/CacheObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/CacheProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/CacheProviderHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/Level1Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/Level2Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/NullCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/NullCacheProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/NullObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/ZhCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/ZhCacheBuilder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/ZhCacheBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/ZhCacheCmd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/ZhCacheConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/caffeine/CaffeineCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/caffeine/CaffeineProvider$CacheConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/caffeine/CaffeineProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/cluster/ClusterPolicy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/cluster/ClusterPolicyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/cluster/JGroupsClusterPolicy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/cluster/NoneClusterPolicy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/cluster/RabbitMQClusterPolicy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/cluster/RocketMQClusterPolicy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/ehcache/EhCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/ehcache/EhCache3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/ehcache/EhCacheProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/ehcache/EhCacheProvider3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/lettuce/LettuceByteCodec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/lettuce/LettuceCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/lettuce/LettuceCacheProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/lettuce/LettuceGenericCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/lettuce/LettuceHashCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/memcached/MemCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/memcached/XmemcachedCacheProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/redis/ReadonlyRedisCacheProvider$ReadonlyCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/redis/ReadonlyRedisCacheProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/redis/RedisCacheProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/redis/RedisClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/redis/RedisClient$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/redis/RedisClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/redis/RedisGenericCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/redis/RedisHashCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/redis/RedisPubSubClusterPolicy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/redis/RedisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/DeserializeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/FSTSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/FastjsonSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/FstJSONSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/FstSnappySerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/JavaSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/KryoPoolSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/KryoPoolSerializer$KryoHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/KryoPoolSerializer$KryoPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/KryoPoolSerializer$KryoPoolImpl$Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/KryoPoolSerializer$KryoPoolImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/KryoPoolSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/KryoSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/SerializationUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/cn/stu/cache/util/Serializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/exception/CacheException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/exception/ExceptionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/BaseCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/TimingCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/LocalCacheException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/common/SimpleCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/common/ThreadSafeCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/common/UnThreadSafeCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/fifo/FifoCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/lru/LruCache$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/lru/LruCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/reference/SoftCache$SoftEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/reference/SoftCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/scheduled/ScheduledCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/serializable/SerializableCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/timing/SimpleTimingCache$TimeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/timing/SimpleTimingCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/timing/ThreadSafeTimingCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/lang/local/impl/timing/UnThreadTimeCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/log/LogException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/log/Logger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/log/LoggerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/log/log4j/Log4JLoggerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/log/nolog/Nologimpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/log/slf4j/Slf4JLocationAwareLoggerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/log/slf4j/Slf4JLoggerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/cache/log/slf4j/Slf4jAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/caffeine.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/ehcache3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/j2cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/network.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/META-INF/cache.main.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/CacheChannelTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/ExpiredTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/JSONSerializerTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/JSONSerializerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/MultiChannelTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/MultiThreadTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/ReferenceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/School.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/VeryBig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/VeryBigWeakReference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/cn/stu/cache/redis/RedisUtilsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/com/cache/lang/impl/SimpleCacheTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/com/cache/lang/impl/SimpleTimingCacheTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/com/cache/lang/impl/UnThreadTimingCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/com/cache/lang/impl/UnthreadCacheTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/com/cache/log/LoggerFactoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/stu/memcached/MemcacheOperationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/stu/redis/RedisOperationTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/stu/redis/RedisOperationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/stu/string/StringOfJava8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/resources/caffeine.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/resources/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/resources/ehcache3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/resources/j2cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/resources/network.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/stu/cache/caffeine/CaffeineProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/stu/cache/caffeine/CaffeineProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/caffeine.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/caffeine.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/caffeine.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/caffeine.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/spring-zhcache/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-zhcache/build/" />
+    <ignored path="$PROJECT_DIR$/spring-zhcache/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/spring-zhcache">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cache" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cache" />
+    <favorites_list name="needchange" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-zhcache/src/main/java/com/stu/springzhcache/SpringZhcacheApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>broadcast</find>
+      <find>init cache and clear all data.</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/net/oschina/j2cache/ZhCacheBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/oschina/j2cache/J2CacheCmd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/oschina/j2cache/ZhCacheCmd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/oschina/j2cache/J2CacheConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/oschina/j2cache/ZhCacheConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/redis/RedisCacheProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/lettuce/LettuceCacheProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/memcached/XmemcachedCacheProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/stu/cache/MultiChannelTester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/Level1Cache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/Cache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/Level2Cache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/CacheException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cache/lang/local/impl/timing/SimpleTimingCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/util/DeserializeException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/util/FastjsonSerializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/util/FstJSONSerializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/redis/RedisPubSubClusterPolicy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/stu/cache/redis/RedisUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/redis/RedisUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cache/log/LogFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cache/log/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cache/log/Logger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cache/log/LoggerFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/redis/RedisClient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cache/lang/impl/SimpleCacheTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/stu/cache/ReferenceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/j2cache.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/stu/cache/CacheChannelTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/ehcache/EhCacheProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/ehcache/EhCacheProvider3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/NullCacheProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/CacheExpiredListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/CacheObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/CacheProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/CacheProviderHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/NullCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/NullObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/ZhCacheCmd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/CacheChannel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/ZhCacheBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/ZhCacheConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/ZhCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/stu/cache/caffeine/CaffeineProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/j2cache.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/caffeine.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/caffeine.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/spring-zhcache/build.gradle" />
+        <option value="$PROJECT_DIR$/spring-zhcache/src/main/java/com/stu/springzhcache/SpringZhcacheApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-4" />
+    <option name="width" value="1920" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-zhcache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-zhcache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-zhcache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-zhcache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-zhcache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-zhcache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="stu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-zhcache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="stu" type="462c0819:PsiDirectoryNode" />
+              <item name="springzhcache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cache" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-zhcache" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554987781018" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.stu.cache.redis" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringZhcacheApplication">
+    <configuration name="CacheChannelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cache.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.stu.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.stu.cache" />
+      <option name="MAIN_CLASS_NAME" value="cn.stu.cache.CacheChannelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheChannelTest.check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cache.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.stu.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.stu.cache" />
+      <option name="MAIN_CLASS_NAME" value="cn.stu.cache.CacheChannelTest" />
+      <option name="METHOD_NAME" value="check" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheChannelTest.clear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cache.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.stu.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.stu.cache" />
+      <option name="MAIN_CLASS_NAME" value="cn.stu.cache.CacheChannelTest" />
+      <option name="METHOD_NAME" value="clear" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheChannelTest.keys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cache.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.stu.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.stu.cache" />
+      <option name="MAIN_CLASS_NAME" value="cn.stu.cache.CacheChannelTest" />
+      <option name="METHOD_NAME" value="keys" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheChannelTest.regions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cache.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.stu.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.stu.cache" />
+      <option name="MAIN_CLASS_NAME" value="cn.stu.cache.CacheChannelTest" />
+      <option name="METHOD_NAME" value="regions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringZhcacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-zhcache.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stu.springzhcache.SpringZhcacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CacheChannelTest" />
+        <item itemvalue="JUnit.CacheChannelTest.keys" />
+        <item itemvalue="JUnit.CacheChannelTest.regions" />
+        <item itemvalue="JUnit.CacheChannelTest.clear" />
+        <item itemvalue="JUnit.CacheChannelTest.check" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="504a607f-4240-4974-816a-42c62abd920b" name="Default Changelist" comment="" />
+      <created>1551576360437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551576360437</updated>
+      <workItem from="1551576363766" duration="8683000" />
+      <workItem from="1551589748194" duration="249000" />
+      <workItem from="1551590073483" duration="12827000" />
+      <workItem from="1551665552365" duration="17756000" />
+      <workItem from="1552014583841" duration="7138000" />
+      <workItem from="1554980585007" duration="1219000" />
+      <workItem from="1554986125089" duration="1848000" />
+      <workItem from="1554988116346" duration="11892000" />
+      <workItem from="1555036202022" duration="256000" />
+      <workItem from="1555044222208" duration="24000" />
+      <workItem from="1555050794718" duration="3270000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化和了解相关api">
+      <created>1551585353760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551585353760</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完成日志模块">
+      <created>1551600574285</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551600574286</updated>
+    </task>
+    <task id="LOCAL-00003" summary="完成日志模块">
+      <created>1551603101609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551603101609</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fifo and lru">
+      <created>1551800526189</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551800526190</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ohter cache">
+      <created>1552022159579</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552022159579</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add cache moudle">
+      <created>1555000038799</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555000038799</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CacheChannelTest_clear - 2019.04.12 at 09h 36m 32s.xml">
+      <configuration name="CacheChannelTest.clear" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheChannelTest_regions - 2019.04.12 at 09h 36m 41s.xml">
+      <configuration name="CacheChannelTest.regions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheChannelTest_keys - 2019.04.12 at 09h 36m 53s.xml">
+      <configuration name="CacheChannelTest.keys" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheChannelTest - 2019.04.12 at 09h 37m 27s.xml">
+      <configuration name="CacheChannelTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheChannelTest - 2019.04.12 at 09h 53m 38s.xml">
+      <configuration name="CacheChannelTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheChannelTest - 2019.04.12 at 09h 55m 15s.xml">
+      <configuration name="CacheChannelTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheChannelTest - 2019.04.12 at 09h 55m 59s.xml">
+      <configuration name="CacheChannelTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheChannelTest - 2019.04.12 at 09h 56m 35s.xml">
+      <configuration name="CacheChannelTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheChannelTest - 2019.04.12 at 09h 57m 38s.xml">
+      <configuration name="CacheChannelTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheChannelTest - 2019.04.12 at 09h 58m 09s.xml">
+      <configuration name="CacheChannelTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="65162000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49798116" visible="true" weight="0.23771368" />
+      <window_info id="Structure" order="1" sideWeight="0.5015707" side_tool="true" weight="0.38675213" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50201887" side_tool="true" weight="0.22970085" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32890704" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5771195" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39938712" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.22574055" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32985386" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32890704" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32984293" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32959402" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32959402" />
+      <window_info anchor="right" id="ASM" order="7" weight="0.32959402" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32959402" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="PlantUML" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化和了解相关api" />
+    <MESSAGE value="完成日志模块" />
+    <MESSAGE value="Fifo and lru" />
+    <MESSAGE value="ohter cache" />
+    <MESSAGE value="add cache moudle" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cache moudle" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>clazz.getConstructor(String.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/util/DeserializeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cache/log/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cache/log/LoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/redis/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#1955#1956#0" expanded="true" />
+            <element signature="e#2021#2022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/redis/RedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="202" column="16" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cache/lang/local/impl/common/SimpleCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cache/lang/local/impl/common/ThreadSafeCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cache/lang/impl/SimpleCacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cache/lang/impl/SimpleTimingCacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cache/lang/impl/UnthreadCacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cache/lang/impl/UnThreadTimingCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/stu/cache/ReferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="69" column="59" lean-forward="true" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/stu/cache/School.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/stu/cache/redis/RedisUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/memcached/MemCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/ehcache/EhCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/ehcache/EhCacheProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/ehcache/EhCacheProvider3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/CacheException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/CacheExpiredListener.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/CacheObject.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/CacheProvider.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/Command.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/Level1Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/NullCache.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/NullObject.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="58" column="31" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/Level2Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/NullCacheProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/CacheProviderHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="36" column="58" lean-forward="true" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/ZhCacheCmd.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/CacheChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/ZhCacheBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="118" column="26" lean-forward="true" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
+          <folding>
+            <element signature="docComment;class#ZhCacheBuilder#0" />
+            <element signature="docComment;method#init#0;class#ZhCacheBuilder#0" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="docComment;method#getChannel#0;class#ZhCacheBuilder#0" />
+            <element signature="method#getChannel#0;class#ZhCacheBuilder#0" />
+            <element signature="docComment;method#close#0;class#ZhCacheBuilder#0" />
+            <element signature="method#close#0;class#ZhCacheBuilder#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/ZhCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="131" column="85" selection-start-line="131" selection-start-column="85" selection-end-line="131" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/ZhCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/caffeine/CaffeineProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/redis/RedisPubSubClusterPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="71" column="74" lean-forward="true" selection-start-line="71" selection-start-column="74" selection-end-line="71" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/cluster/ClusterPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/stu/cache/cluster/JGroupsClusterPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2057">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/j2cache.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="53" column="39" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/j2cache.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/caffeine.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/caffeine.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-zhcache/HELP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="288">
+            <caret line="12" column="25" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-zhcache/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/stu/cache/CacheChannelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="159" column="67" selection-start-line="159" selection-start-column="67" selection-end-line="159" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.6.RELEASE/647293fbac4e4a0805d5440151ebb79cd0bf426b/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.4.RELEASE/2edd9ce8f7fe3dafb83eef9248b882abc6fe6192/spring-boot-autoconfigure-2.1.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-zhcache/src/main/java/com/stu/springzhcache/SpringZhcacheApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>main|com.zhl.cache</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -66,8 +66,9 @@ public class CaffeineProvider implements CacheProvider {
             CacheConfig config = cacheConfigs.get(region);
             if (config == null) {
                 config = cacheConfigs.get(DEFAULT_REGION);
-                if (config == null)
+                if (config == null) {
                     throw new CacheException(String.format("Undefined [default] caffeine cache"));
+                }
 
                 log.warn("Caffeine cache [{}] not defined, using default.", region);
             }
